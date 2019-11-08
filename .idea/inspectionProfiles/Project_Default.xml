@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date" />
+      <option name="myAdditionalJavadocTags" value="date,description：品牌生产工厂,description：耐克品牌,description：阿迪达斯品牌,description：红旗品牌,description：东风品牌,description：简单工厂类,description：品牌工厂,description：所有品牌类,description：品牌抽象工厂,description：中国品牌工厂,description：工厂方法测试" />
     </inspection_tool>
   </profile>
 </component>
