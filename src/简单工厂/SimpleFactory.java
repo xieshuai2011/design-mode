@@ -1,9 +1,9 @@
 package 简单工厂;
 
-import 产品类.Adidas;
-import 产品类.DongFeng;
-import 产品类.HongQi;
-import 产品类.Nike;
+import 公共类.Adidas;
+import 公共类.DongFeng;
+import 公共类.HongQi;
+import 公共类.Nike;
 
 import static java.lang.System.out;
 
@@ -42,13 +42,13 @@ public class SimpleFactory {
 
     public static void main(String[] args) {
         Brand adidas = SimpleFactory.getInstance(ADIDAS);
-        out.println(ADIDAS+"创建的咖啡实例为:" + adidas.getName());
+        out.println(ADIDAS+"创建的实例为:" + adidas.getName());
         Brand nike = SimpleFactory.getInstance(NIKE);
-        out.println(NIKE+"创建的咖啡实例为:" + nike.getName());
+        out.println(NIKE+"创建的实例为:" + nike.getName());
         Brand dongFeng = SimpleFactory.getInstance(DONG_FENG);
-        out.println(DONG_FENG+"创建的咖啡实例为:" + dongFeng.getName());
+        out.println(DONG_FENG+"创建的实例为:" + dongFeng.getName());
         Brand hongQi = SimpleFactory.getInstance(HONG_QI);
-        out.println(HONG_QI+"创建的咖啡实例为:" + hongQi.getName());
+        out.println(HONG_QI+"创建的实例为:" + hongQi.getName());
     }
 
 }

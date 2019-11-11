@@ -1,4 +1,4 @@
-package 产品类;
+package 公共类;
 
 import 简单工厂.Brand;
 

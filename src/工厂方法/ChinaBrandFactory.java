@@ -1,7 +1,7 @@
 package 工厂方法;
 
-import 产品类.DongFeng;
-import 产品类.HongQi;
+import 公共类.DongFeng;
+import 公共类.HongQi;
 import 简单工厂.Brand;
 
 /**

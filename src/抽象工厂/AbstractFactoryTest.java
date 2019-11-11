@@ -1,10 +1,8 @@
 package 抽象工厂;
 
-import 产品类.Alibaba;
-import 产品类.Amazon;
+import 公共类.Alibaba;
+import 公共类.Amazon;
 import 简单工厂.Brand;
-
-import java.nio.file.attribute.AttributeView;
 
 /**
  * @author xieshuai
