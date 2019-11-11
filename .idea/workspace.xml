@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592cd657-4f01-4f32-a336-c812d705f8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/工厂方法/BrandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂方法/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/产品类/Alibaba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/产品类/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/品牌类/Adidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/产品类/Adidas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/品牌类/DongFeng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/产品类/DongFeng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/品牌类/HongQi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/产品类/HongQi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/品牌类/Nike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/产品类/Nike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,46 +31,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/工厂方法/FactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" selection-start-line="11" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="323">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/工厂方法/BrandFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="276">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#360#361#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,6 +93,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -98,12 +121,17 @@
         <option value="$PROJECT_DIR$/src/工厂方法/FactoryTest.java" />
         <option value="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" />
         <option value="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" />
+        <option value="$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java" />
+        <option value="$PROJECT_DIR$/src/产品类/Alibaba.java" />
+        <option value="$PROJECT_DIR$/src/产品类/Amazon.java" />
+        <option value="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java" />
+        <option value="$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="480" />
     <option name="width" value="1750" />
     <option name="height" value="1040" />
   </component>
@@ -132,19 +160,13 @@
               <item name="design-mode" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-mode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="品牌类" type="462c0819:PsiDirectoryNode" />
+              <item name="产品类" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design-mode" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-mode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="工厂方法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-mode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-mode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="简单工厂" type="462c0819:PsiDirectoryNode" />
+              <item name="抽象工厂" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -158,7 +180,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/git/lz-car" />
+    <property name="last_opened_file_path" value="D:/git/lz-business" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -195,7 +217,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactoryTest">
+  <component name="RunManager" selected="Application.AbstractFactoryTest">
+    <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="抽象工厂.AbstractFactoryTest" />
+      <module name="design-mode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="抽象工厂.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="工厂方法.FactoryTest" />
       <module name="design-mode" />
@@ -224,7 +259,7 @@
       <module name="design-mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="品牌类.*" />
+          <option name="PATTERN" value="产品类.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,6 +269,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AbstractFactoryTest" />
         <item itemvalue="Application.FactoryTest" />
         <item itemvalue="Application.SimpleFactory" />
         <item itemvalue="Application.Main" />
@@ -270,12 +306,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11832000" />
+    <option name="totallyTimeSpent" value="18923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15817694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15817694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -284,7 +320,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -361,14 +397,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/品牌类.java" />
-    <entry file="file://$PROJECT_DIR$/src/品牌类/HongQi.java">
+    <entry file="file://$PROJECT_DIR$/src/产品类/HongQi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/品牌类/Nike.java">
+    <entry file="file://$PROJECT_DIR$/src/产品类/Nike.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -385,24 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" selection-start-line="11" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/品牌类/Adidas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/简单工厂/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -410,14 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/工厂方法/BrandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/品牌类/DongFeng.java">
+    <entry file="file://$PROJECT_DIR$/src/产品类/DongFeng.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -431,6 +442,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/产品类/Adidas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/产品类/Alibaba.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/产品类/Amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -438,6 +485,61 @@
           <folding>
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/工厂方法/BrandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

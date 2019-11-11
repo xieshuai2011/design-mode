@@ -1,7 +1,7 @@
 package 工厂方法;
 
-import 品牌类.Adidas;
-import 品牌类.Nike;
+import 产品类.Adidas;
+import 产品类.Nike;
 import 简单工厂.Brand;
 
 /**

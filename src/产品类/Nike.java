@@ -1,4 +1,4 @@
-package 品牌类;
+package 产品类;
 
 import 简单工厂.Brand;
 

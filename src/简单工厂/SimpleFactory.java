@@ -1,9 +1,9 @@
 package 简单工厂;
 
-import 品牌类.Adidas;
-import 品牌类.DongFeng;
-import 品牌类.HongQi;
-import 品牌类.Nike;
+import 产品类.Adidas;
+import 产品类.DongFeng;
+import 产品类.HongQi;
+import 产品类.Nike;
 
 import static java.lang.System.out;
 
