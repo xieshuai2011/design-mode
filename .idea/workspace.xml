@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592cd657-4f01-4f32-a336-c812d705f8f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/单例模式/DoubleCheckedLockingSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单例模式/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/单例模式/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/DeepClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/ShallowClone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/原型模式/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/Adidas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/Adidas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/Alibaba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/Alibaba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/Amazon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/Amazon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/DongFeng.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/DongFeng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/HongQi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/HongQi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/产品类/Nike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/公共类/Nike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/工厂方法/ChinaBrandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/工厂方法/ForeignBrandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象工厂/AbstractInternetFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象工厂/ChinaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/抽象工厂/ForeignFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,54 +16,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/单例模式/LazySingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/原型模式/DeepClone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="209">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1494#1495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/单例模式/HungrySingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/单例模式/DoubleCheckedLockingSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/简单工厂/SimpleFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/原型模式/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +73,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>公共</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,13 +113,17 @@
         <option value="$PROJECT_DIR$/src/单例模式/HungrySingleton.java" />
         <option value="$PROJECT_DIR$/src/单例模式/DoubleCheckedLockingSingleton.java" />
         <option value="$PROJECT_DIR$/src/简单工厂/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/ShallowClone.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/User.java" />
+        <option value="$PROJECT_DIR$/src/原型模式/DeepClone.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="245" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1750" />
-    <option name="height" value="1038" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,13 +150,7 @@
               <item name="design-mode" type="b2602c69:ProjectViewProjectNode" />
               <item name="design-mode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="单例模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-mode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-mode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="简单工厂" type="462c0819:PsiDirectoryNode" />
+              <item name="原型模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,7 +164,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/git/lz-business" />
+    <property name="last_opened_file_path" value="D:/git/lz-apply" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -195,11 +179,11 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="产品类" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\design-mode\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="产品类" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -220,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HungrySingleton">
+  <component name="RunManager" selected="Application.DeepClone">
     <configuration name="AbstractFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="抽象工厂.AbstractFactoryTest" />
       <module name="design-mode" />
@@ -234,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="工厂方法.FactoryTest" />
+    <configuration name="DeepClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="原型模式.DeepClone" />
       <module name="design-mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="工厂方法.*" />
+          <option name="PATTERN" value="原型模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="简单工厂.SimpleFactory" />
+    <configuration name="ShallowClone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="原型模式.ShallowClone" />
       <module name="design-mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="公共类.*" />
+          <option name="PATTERN" value="原型模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeepClone" />
+        <item itemvalue="Application.ShallowClone" />
         <item itemvalue="Application.HungrySingleton" />
         <item itemvalue="Application.LazySingleton" />
         <item itemvalue="Application.AbstractFactoryTest" />
-        <item itemvalue="Application.FactoryTest" />
-        <item itemvalue="Application.SimpleFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573194480492</updated>
       <workItem from="1573194483290" duration="163000" />
+      <workItem from="1573538327606" duration="9483000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式">
       <created>1573194570733</created>
@@ -333,28 +318,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25755000" />
+    <option name="totallyTimeSpent" value="37988000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="0" width="1400" height="830" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21684054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19772118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1747851" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22804533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="SonarLint" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -427,13 +412,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/品牌类.java" />
     <entry file="file://$PROJECT_DIR$/src/公共类/HongQi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/公共类/Nike.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -563,13 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/公共类/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/公共类/Singleton.java" />
     <entry file="file://$PROJECT_DIR$/src/单例模式/LazySingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -606,6 +578,93 @@
           <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="348" column="46" lean-forward="true" selection-start-line="348" selection-start-column="46" selection-end-line="348" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/design-mode/工厂方法/BrandFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/公共类/Nike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/ShallowClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/DeepClone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/原型模式/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
           </folding>
         </state>
       </provider>

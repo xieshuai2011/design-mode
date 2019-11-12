@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="date,description：品牌生产工厂,description：耐克品牌,description：阿迪达斯品牌,description：红旗品牌,description：东风品牌,description：简单工厂类,description：品牌工厂,description：所有品牌类,description：品牌抽象工厂,description：中国品牌工厂,description：工厂方法测试,description：抽象的品牌互联网工厂类,description：阿里巴巴互联网,description：亚马逊互联网,description：中国工厂,description：外国工厂,description：抽象工厂测试类,description：懒汉式单例,description：饿汉式单例,description：双检查锁机制" />
+      <option name="myAdditionalJavadocTags" value="date,description：品牌生产工厂,description：耐克品牌,description：阿迪达斯品牌,description：红旗品牌,description：东风品牌,description：简单工厂类,description：品牌工厂,description：所有品牌类,description：品牌抽象工厂,description：中国品牌工厂,description：工厂方法测试,description：抽象的品牌互联网工厂类,description：阿里巴巴互联网,description：亚马逊互联网,description：中国工厂,description：外国工厂,description：抽象工厂测试类,description：懒汉式单例,description：饿汉式单例,description：双检查锁机制,description：用户类,description：浅克隆,description：深克隆" />
     </inspection_tool>
   </profile>
 </component>
