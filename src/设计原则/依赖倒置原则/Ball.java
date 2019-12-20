@@ -7,6 +7,6 @@ package 设计原则.依赖倒置原则;
  */
 public interface Ball {
 
-    public String playBall();
+    String playBall();
 
 }
